@@ -1,0 +1,47 @@
+/* import the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* reset do css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Roboto, sans-serif;
+}
+
+root {
+    --orange: #FFA500;
+    --seagreen:	#2E8B57;
+    --darkslategray: #2F4F4F;
+    --snoow: #FFFAFA;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden ;
+}
+header {
+    width: 100%;
+    height: 500px;
+    background: var(--snoow);
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card-item button {
+    height: 400px;
+    background: var(--orange);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
